@@ -1,0 +1,20 @@
+schema: 1
+type: workflow
+name: sprwf-varseq
+version: "wf-1.1.1"
+
+systemPipeR:
+  bioc_min: "2.16.0"
+
+systemPipeRdata:
+  bioc_min: "2.14.5"
+
+param:
+  name: sprwfcmp-param
+  repo: "https://github.com/systemPipeR/sprwfcmp-param"
+  tag: "v1.1.1"
+
+data:
+  name: sprwfcmp-data
+  repo: "https://github.com/systemPipeR/sprwfcmp-data"
+  tag: "v1.0.0"
